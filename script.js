@@ -4,7 +4,7 @@ let toDoList = document.querySelector("#toDoList");
 
 addButton.addEventListener('click', function() {
 let toDoText = toDoInput.value;
-console.log(toDoInput)
+// console.log(toDoInput)
 
 toDoInput.value = ""
 
@@ -22,11 +22,6 @@ newTodo.addEventListener('click', function(e) {
 
 
 toDoList.appendChild(newTodo)
-
-
-
-
-
 
 
 })
